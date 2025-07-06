@@ -1,0 +1,16 @@
+{
+  "name": "Netria",
+  "short_name": "Netria",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0077cc",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "64x64"
+    }
+  ],
+  "lang": "fr"
+}

@@ -1,0 +1,66 @@
+:root {
+  --bg: #ffffff;
+  --text: #111;
+  --accent: #0077cc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #eee;
+    --accent: #66ccff;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: var(--accent);
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+footer {
+  background: #f0f0f0;
+  color: #555;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.logo {
+  height: 80px;
+  margin-bottom: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .logo {
+    height: 120px;
+  }
+}
+
